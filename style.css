@@ -1,0 +1,66 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+   transition: 0.3s ease all;
+   overflow: hidden;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px 0px #232323d8;
+}
+
+/* ! mainSection */
+#mainSection{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to top left ,black , rgba(0, 0, 0, 0.37)), url("https://xxboxnews.blob.core.windows.net/prod/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png")  ;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+#mainSection h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: red ;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+form button{
+    padding: 10px 40px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
